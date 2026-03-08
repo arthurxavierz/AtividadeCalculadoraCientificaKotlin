@@ -68,6 +68,7 @@ app/
     └── values/
         └── themes.xml          # Estilos dos botões
 ```
+---
 
 <img width="352" height="624" alt="image" src="https://github.com/user-attachments/assets/5f192d93-39af-4af5-a59f-730b5afc637a" />
 
