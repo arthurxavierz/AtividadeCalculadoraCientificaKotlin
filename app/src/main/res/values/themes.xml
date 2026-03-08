@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.AtividadeCalculadoraCientifica" parent="Theme.MaterialComponents.DayNight.NoActionBar" />
+
+    <!-- Botão de número -->
+    <style name="BtnNumero">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:backgroundTint">#3A3A3C</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">50dp</item>
+    </style>
+
+    <!-- Botão de função (C, +/-, %) -->
+    <style name="BtnFuncao">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:backgroundTint">#636366</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">50dp</item>
+    </style>
+
+    <!-- Botão de operador (+, -, *, /) -->
+    <style name="BtnOperador">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:backgroundTint">#FF9F0A</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">50dp</item>
+    </style>
+
+    <!-- Botão igual -->
+    <style name="BtnIgual">
+        <item name="android:layout_width">0dp</item>
+        <item name="android:layout_height">0dp</item>
+        <item name="android:layout_columnWeight">1</item>
+        <item name="android:layout_rowWeight">1</item>
+        <item name="android:layout_margin">6dp</item>
+        <item name="android:backgroundTint">#FF9F0A</item>
+        <item name="android:textColor">#FFFFFF</item>
+        <item name="android:textSize">26sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">50dp</item>
+    </style>
+
+    <!-- Botão científico -->
+    <style name="BtnCientifico">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">52dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:backgroundTint">#2C2C2E</item>
+        <item name="android:textColor">#FF9F0A</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+</resources>
